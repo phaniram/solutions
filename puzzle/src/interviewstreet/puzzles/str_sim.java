@@ -1,4 +1,4 @@
-package com.interviewstreet.puzzles;
+package interviewstreet.puzzles;
 
 import java.util.Scanner;
 public class str_sim {

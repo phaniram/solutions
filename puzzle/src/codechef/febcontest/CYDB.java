@@ -1,4 +1,4 @@
-package com.cyp.codechef.febcontest;
+package codechef.febcontest;
 
 import java.util.Scanner;
 

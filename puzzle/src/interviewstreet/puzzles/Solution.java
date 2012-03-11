@@ -1,4 +1,4 @@
-package com.interviewstreet.puzzles;
+package interviewstreet.puzzles;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ import java.util.TreeSet;
  * @author cypronmaya
  *  FIND STRINGS - Interviewstreet Challenges (Non-Optimal Solution)
  */
-public class find_str_g {
+class Solution {
 
     private static final String INVALID = "INVALID";
     private TreeSet<String> mainset = new TreeSet<String>();
@@ -18,7 +18,7 @@ public class find_str_g {
     private int length;
 
     public static void main(String args[]) {
-        find_str_g fin = new find_str_g();
+        Solution fin = new Solution();
         Scanner scanner = new Scanner(System.in);
         int num_of_strings = scanner.nextInt();
 
@@ -27,7 +27,6 @@ public class find_str_g {
         }
 
         fin.initialize();
-
 
         int num_of_queries = scanner.nextInt();
         int length = fin.length;

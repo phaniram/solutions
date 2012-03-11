@@ -1,4 +1,4 @@
-package com.cyp.codechef.marcontest;
+package codechef.marcontest;
 
 import java.io.IOException;
 import java.util.Scanner;

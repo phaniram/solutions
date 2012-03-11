@@ -1,5 +1,5 @@
 
-package com.interviewstreet.puzzles;
+package interviewstreet.puzzles;
 
 import java.math.BigInteger;
 import java.util.Arrays;

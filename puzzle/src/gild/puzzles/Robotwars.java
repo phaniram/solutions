@@ -1,4 +1,4 @@
-package com.gild.puzzles;
+package gild.puzzles;
 
 import java.io.File;
 import java.io.FileNotFoundException;

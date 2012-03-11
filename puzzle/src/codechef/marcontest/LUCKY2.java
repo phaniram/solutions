@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.cyp.codechef.marcontest;
+package codechef.marcontest;
 
 import java.math.BigInteger;
 import java.util.Scanner;
