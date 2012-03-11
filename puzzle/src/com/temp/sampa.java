@@ -1,20 +1,14 @@
-package com.work;
+package com.temp;
 
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
+import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
 
-class boost implements Callable<Double>{
+class test implements Runnable{
 
         private int[] in;
-        public boost(int[] input) {
+        public test(int[] input) {
                 this.in=input;
         }
 
@@ -75,34 +69,25 @@ class boost implements Callable<Double>{
 		return total_len + 1;
 	}
 
-
     @Override
-    public Double call() {
-        return process(in);
+    public void run() {
+       System.out.printf("%8.2f\n",process(in));
     }
 }
-public class Vertical_sticks{
+public class sampa{
     public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		int num_of_testcases = sc.nextInt();
 		ExecutorService executor = Executors.newFixedThreadPool(num_of_testcases);
-                List<Future<Double>> list = new ArrayList<Future<Double>>();
 		for (int i = 0; i < num_of_testcases; i++) {
 			int num_of_points = sc.nextInt();
 			int sticks[] = new int[num_of_points];
 			for (int j = 0; j < num_of_points; j++) {
 				sticks[j] = sc.nextInt();
 			}
-                        Callable<Double> worker = new boost(sticks);
-			Future<Double> submit = executor.submit(worker);
-			list.add(submit);
-		}
-                for (Future<Double> future : list) {
-			try {
-			System.out.printf("%8.2f\n",future.get());
-			} catch (InterruptedException e) {
-			} catch (ExecutionException e) {
-			}
+                        Runnable worker = new test(sticks);
+			executor.execute(worker);
+                      
 		}
                executor.shutdown();
 	}
