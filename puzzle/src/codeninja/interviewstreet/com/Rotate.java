@@ -1,6 +1,14 @@
 package codeninja.interviewstreet.com;
 
+/**
+*
+* @author cypronmaya
+* Amazon CodeNinja Programming contest Challenges / Rotate(Non-Optimal Solution)
+*/
+
+
 import java.util.Scanner;
+
 
 public class Rotate {
 
@@ -11,7 +19,7 @@ public class Rotate {
 		this.arr=array;
 		this.size=s;
 		this.rot_arr=new int[s+1][s+1];
-		System.out.println("Given array is");
+		/*System.out.println("Given array is");
 		for(int p=1;p<=size;p++)
 		{
 			for(int k=1;k<=size;k++)
@@ -19,7 +27,7 @@ public class Rotate {
 				System.out.print(arr[p][k]+" ");
 			}
 			System.out.println();
-		}
+		}*/
 		solve();
 		
 	}
@@ -57,11 +65,25 @@ public class Rotate {
 					rot_arr[b][t-1]=arr[b][t];
 					rot_arr[t-1][r]=arr[t][r];
 				}
+			} else
+			{
+				for(int t=r;t<b;t++)
+				{
+					rot_arr[b][t+1]=arr[b][t];
+					rot_arr[t+1][r]=arr[t][r];
+				}
+				for(int t=b;t>r;t--)
+				{
+					rot_arr[r][t-1]=arr[r][t];
+					rot_arr[t-1][b]=arr[t][b];
+				}
 			}
-			
-			
 		}
-		
+		if(size%2==1)
+		{
+			int k=num_of_rotations+1;
+			rot_arr[k][k]=arr[k][k];
+		}
 		for(int s=1;s<=size;s++)
 		{
 			for(int k=1;k<=size;k++)
