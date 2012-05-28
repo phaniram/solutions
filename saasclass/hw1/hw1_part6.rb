@@ -1,15 +1,17 @@
+# author Cypronmaya
+
 class CartesianProduct
   include Enumerable
   def initialize(x,y)
         @x,@y=x,y
   end
-  
+
   def each
     if(@x.size !=0 && @y.size !=0)
-      @x.each { 
-        |x|  
-          @y.each { 
-              |y|  
+      @x.each {
+        |x|
+          @y.each {
+              |y|
               tmp=Array.new
               tmp.push(x)
               tmp.push(y)

@@ -1,3 +1,25 @@
+# author Cypronmaya
+
+class Class
+  def attr_accessor_with_history(attr_name)
+    attr_name = attr_name.to_s
+    #getter
+    attr_reader attr_name
+    attr_reader attr_name+"_history"
+    class_eval %{
+        def #{attr_name}=(val)
+          @#{attr_name} = val
+          @#{attr_name}_history = [nil] if @#{attr_name}_history.nil?
+          @#{attr_name}_history.push(val)
+        end
+    }
+  end
+end
+
+class Foo
+  attr_accessor_with_history :bar
+end
+
 
 class Numeric
   @@currencies = {'yen' => 0.013, 'euro' => 1.292, 'rupee' => 0.019 ,'dollar' => 1}
@@ -39,3 +61,9 @@ module Enumerable
     end
   end
 end
+
+f = Foo.new
+f.bar = 1
+f.bar = 2
+f.bar
+f.bar_history 
