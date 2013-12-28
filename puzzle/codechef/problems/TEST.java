@@ -1,11 +1,12 @@
-package codechef.problems;
-
-import java.util.Scanner;
-
 /*
+ * Life, the Universe, and Everything
  * Status  : ACCEPTED
  * Problem : http://www.codechef.com/problems/TEST
  */
+
+package codechef.problems;
+
+import java.util.Scanner;
 
 class TEST {
 	public static void main(String[] args) {
