@@ -1,6 +1,6 @@
 /*
  * Status  : ACCEPTED
- * Problem : http://www.codechef.com/problems/INTEST
+ * Problem : http://www.codechef.com/problems/HOLES
  */
 
 package codechef.problems;
