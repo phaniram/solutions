@@ -1,6 +1,6 @@
 /*
  * Mike and Matrices
- * Status  : MIKE1
+ * Status  : Solved
  * Problem : http://www.codechef.com/LTIME07/problems/MIKE1
  */
 
