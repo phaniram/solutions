@@ -12,36 +12,53 @@ Procedures i've followed are basic and not optimized, main purpose is to share a
 
 ### regex-practice-1 Contests
 
-* [Building a Smart IDE: Identifying comments][ https://www.hackerrank.com/contests/regex-practice-1/challenges/ide-identifying-comments] (`BaSIIC.java`) #Accepted
-* [Detecting Valid Latitude and Longitude Pairs][ https://www.hackerrank.com/contests/regex-practice-1/challenges/detecting-valid-latitude-and-longitude] (`DVLaLP.java`) #Accepted
+* [Building a Smart IDE: Identifying comments][BaSIIC] (`BaSIIC.java`) #Accepted
+* [Detecting Valid Latitude and Longitude Pairs][DVLaLP] (`DVLaLP.java`) #Accepted
 
 ### Challenges
 
-* [IP Address Validation][ https://www.hackerrank.com/challenges/ip-address-validation] (`IP_Address_Validation.java`) #Solved
-* [Valid PAN format][ https://www.hackerrank.com/challenges/valid-pan-format] (`Valid_PAN_Format.java`) #Accepted
-* [Saying Hi][ https://www.hackerrank.com/challenges/saying-hi] (`Saying_Hi.java`) #Accepted
-* [String Reduction][ https://www.hackerrank.com/challenges/string-reduction] (`str_reduc.java`) #Accepted
+* [IP Address Validation][ip-address-validation] (`IP_Address_Validation.java`) #Solved
+* [Valid PAN format][valid-pan-format] (`Valid_PAN_Format.java`) #Accepted
+* [Saying Hi][saying-hi] (`Saying_Hi.java`) #Accepted
+* [String Reduction][string-reduction] (`str_reduc.java`) #Accepted
 
 
 ## CodeChef
 
+### January Challenge 2014
+
+* [Chef and Feedback ][ERROR] (`ERROR.java`) #Accepted
+* [Please like me ][PLZLYKME] (`PLZLYKME.java`) #Accepted
+
 ### May Challenge 2012
 
-* [Chef and Feedback ][ http://www.codechef.com/JAN14/problems/ERROR] (`ERROR.java`) #Accepted
-* [Please like me ][ http://www.codechef.com/JAN14/problems/PLZLYKME] (`PLZLYKME.java`) #Accepted
-
-### May Challenge 2012
-
-* [Jewels and Stones ][ http://www.codechef.com/MAY12/problems/STONES] (`STONES.java`) #Accepted
-* [Lucky lucky number ][ http://www.codechef.com/MAY12/problems/CHEFLUCK] (`CHEFLUCK.java`) #Accepted
-* [Remember the recipe ][ http://www.codechef.com/MAY12/problems/TWSTR] (`TWSTR.java`) #Accepted
+* [Jewels and Stones ][STONES] (`STONES.java`) #Accepted
+* [Lucky lucky number ][CHEFLUCK] (`CHEFLUCK.java`) #Accepted
+* [Remember the recipe ][TWSTR] (`TWSTR.java`) #Accepted
 
 ### March 2012 Challenge
 
-* [Spoon in Matrix ][ http://www.codechef.com/MARCH12/problems/SPOON] (`SPOON.java`) #Accepted
+* [Spoon in Matrix ][SPOON] (`SPOON.java`) #Accepted
 
 ### February 2012 Challenge
 
-* [Word Couting ][ http://www.codechef.com/FEB12/problems/WCOUNT] (`WCOUNT.java`) #Accepted
+* [Word Couting ][WCOUNT] (`WCOUNT.java`) #Accepted
 
 ## Project Euler
+
+
+
+[BaSIIC]: https://www.hackerrank.com/contests/regex-practice-1/challenges/ide-identifying-comments
+[DVLaLP]: https://www.hackerrank.com/contests/regex-practice-1/challenges/detecting-valid-latitude-and-longitude
+[ip-address-validation]: https://www.hackerrank.com/challenges/ip-address-validation
+[valid-pan-format]: https://www.hackerrank.com/challenges/valid-pan-format
+[saying-hi]: https://www.hackerrank.com/challenges/saying-hi
+[string-reduction]: https://www.hackerrank.com/challenges/string-reduction
+[ERROR]: http://www.codechef.com/JAN14/problems/ERROR
+[PLZLYKME]: http://www.codechef.com/JAN14/problems/PLZLYKME
+[STONES]: http://www.codechef.com/MAY12/problems/STONES
+[CHEFLUCK]: http://www.codechef.com/MAY12/problems/CHEFLUCK
+[TWSTR]: http://www.codechef.com/MAY12/problems/TWSTR
+[SPOON]: http://www.codechef.com/MARCH12/problems/SPOON
+[WCOUNT]: http://www.codechef.com/FEB12/problems/WCOUNT
+
