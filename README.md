@@ -10,6 +10,10 @@ Procedures i've followed are basic and not optimized, main purpose is to share a
 
 ## HackerRank
 
+### Ad Infinitum - Math Programming Contest March'14
+
+* [Summing the N series][SummingTheNSeries] (`SummingTheNSeries.java`) #Accepted
+
 ### regex-practice-1 Contests
 
 * [Building a Smart IDE: Identifying comments][BaSIIC] (`BaSIIC.java`) #Accepted
@@ -24,6 +28,10 @@ Procedures i've followed are basic and not optimized, main purpose is to share a
 
 
 ## CodeChef
+
+### March Challenge 2014
+
+* [Walk ][WALK] (`WALK.java`) #Accepted
 
 ### January Challenge 2014
 
@@ -47,7 +55,6 @@ Procedures i've followed are basic and not optimized, main purpose is to share a
 ## Project Euler
 
 
-
 [BaSIIC]: https://www.hackerrank.com/contests/regex-practice-1/challenges/ide-identifying-comments
 [DVLaLP]: https://www.hackerrank.com/contests/regex-practice-1/challenges/detecting-valid-latitude-and-longitude
 [ip-address-validation]: https://www.hackerrank.com/challenges/ip-address-validation
@@ -61,4 +68,5 @@ Procedures i've followed are basic and not optimized, main purpose is to share a
 [TWSTR]: http://www.codechef.com/MAY12/problems/TWSTR
 [SPOON]: http://www.codechef.com/MARCH12/problems/SPOON
 [WCOUNT]: http://www.codechef.com/FEB12/problems/WCOUNT
-
+[WALK]: http://www.codechef.com/MARCH14/problems/WALK/
+[SummingTheNSeries]: https://www.hackerrank.com/contests/infinitum-mar14/challenges/summing-the-n-series
