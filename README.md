@@ -25,6 +25,7 @@ Procedures i've followed are basic and not optimized, main purpose is to share a
 * [Valid PAN format][valid-pan-format] (`Valid_PAN_Format.java`) #Accepted
 * [Saying Hi][saying-hi] (`Saying_Hi.java`) #Accepted
 * [String Reduction][string-reduction] (`str_reduc.java`) #Accepted
+* [Keyword Transposition Cipher][KeywordTranspositionCipher] (`KeywordTranspositionCipher.java`) #Accepted
 
 
 ## CodeChef
@@ -70,3 +71,4 @@ Procedures i've followed are basic and not optimized, main purpose is to share a
 [WCOUNT]: http://www.codechef.com/FEB12/problems/WCOUNT
 [WALK]: http://www.codechef.com/MARCH14/problems/WALK/
 [SummingTheNSeries]: https://www.hackerrank.com/contests/infinitum-mar14/challenges/summing-the-n-series
+[KeywordTranspositionCipher]: https://www.hackerrank.com/challenges/keyword-transposition-cipher
